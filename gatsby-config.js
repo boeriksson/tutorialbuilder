@@ -1,6 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: "tutorials"
+        title: "tutorials",
+        siteUrl: "https://tutorialbuilder.gatsbyjs.io/"
     },
     plugins: [
         "gatsby-plugin-emotion",
