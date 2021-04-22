@@ -17,6 +17,9 @@ export default function Layout({ children }) {
             font-family: 'Work Sans', sans-serif;
             font-size: large;
           }
+          h1 {
+            color: rgb(171, 227, 56);
+          }
         `}
             />
             {children}

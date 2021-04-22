@@ -1,12 +1,19 @@
-import * as React from "react"
+import React from 'react'
+import Layout from '../components/layout'
+import styled from '@emotion/styled'
 
-// markup
+const SA = styled('a')`
+    color: rgb(171, 227, 56)
+`
+
 const IndexPage = () => {
-  return (
-    <main>
-      <a href="/css/IsWhere/">IsWhere</a>
-    </main>
-  )
+    return (
+        <Layout>
+            <main>
+                <SA href="/css/IsWhere/">IsWhere</SA>
+            </main>
+        </Layout>
+    )
 }
 
 export default IndexPage
